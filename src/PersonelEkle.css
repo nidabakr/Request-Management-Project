@@ -1,0 +1,66 @@
+.personel-ekle-container {
+    background-color: #f9f9f9; 
+    padding: 25px;
+    border-radius: 15px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 500px; 
+    margin: 40px auto; 
+    border: 1px solid #e0e0e0; 
+}
+
+.personel-ekle-container h2 {
+    color: #444; 
+    font-size: 2em;
+    margin-bottom: 25px;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px; 
+}
+
+.personel-ekle-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.personel-ekle-form div {
+    position: relative; 
+}
+
+.personel-ekle-form label {
+    font-size: 1.1em; 
+    color: #555; 
+    margin-bottom: 8px;
+}
+
+.personel-ekle-form input {
+    width: 100%;
+    padding: 12px; 
+    border-radius: 8px; 
+    border: 1px solid #ccc; 
+    font-size: 1em; 
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; 
+}
+
+.personel-ekle-form input:focus {
+    border-color: #28a745; 
+    outline: none; 
+}
+
+.personel-ekle-form button {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 15px 30px; 
+    cursor: pointer;
+    border-radius: 8px; 
+    font-size: 1.1em; 
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.personel-ekle-form button:hover {
+    background-color: #1e7e34; 
+    transform: scale(1.05);
+}

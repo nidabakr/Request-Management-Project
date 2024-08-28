@@ -1,0 +1,68 @@
+.beklemede-talepler {
+    background-color: #f4f4f4;
+    color: #ffffff; 
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.beklemede-talepler h1 {
+    color: #000000; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 1px; 
+    font-family: Arial, sans-serif; 
+}
+
+.beklemede-talepler table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.beklemede-talepler th, .beklemede-talepler td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.beklemede-talepler th {
+    background-color: #f1f1f1;
+    color: #000000;
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.beklemede-talepler td {
+    color: #000000;
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.beklemede-talepler tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.beklemede-talepler td input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.durum-acil {
+    background-color: #f15858 !important; 
+    color: #000000 !important; 
+    font-size: 18px; 
+}
+  
+.durum-beklemede {
+    background-color: #ffff52 !important;
+    color: #000000 !important; 
+    font-size: 18px; 
+}

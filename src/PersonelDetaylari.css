@@ -1,0 +1,79 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .personel-detaylari {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .personel-detaylari h2 {
+    color: #333;
+  }
+
+  .personel-detaylari p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .personel-detaylari strong {
+    color: #000;
+  }
+  
+  .back-button {
+    position: absolute;
+    bottom: 20px; 
+    right: 20px;
+    background-color: #f53b89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #b30062;
+  }
+  
+  .personel-link {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .personel-link:hover {
+    background-color: #e2e6ea;
+    color: #0056b3;
+  }
+  

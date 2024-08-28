@@ -1,0 +1,90 @@
+.sirket-ekle-container {
+    background-color: #f9f9f9; 
+    padding: 25px;
+    border-radius: 15px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 500px; 
+    margin: 40px auto; 
+    border: 1px solid #e0e0e0;
+}
+
+.sirket-ekle-container h2 {
+    color: #444; 
+    font-size: 2em; 
+    margin-bottom: 25px;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 1px; 
+}
+
+.sirket-ekle-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.sirket-ekle-form div {
+    position: relative; 
+}
+
+.sirket-ekle-form label {
+    font-size: 1.1em; 
+    color: #555; 
+    margin-bottom: 8px; 
+}
+
+.sirket-ekle-form input {
+    width: 100%;
+    padding: 12px; 
+    border-radius: 8px; 
+    border: 1px solid #ccc; 
+    font-size: 1em; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease; 
+}
+
+.sirket-ekle-form input:focus {
+    border-color: #007bff;
+    outline: none; 
+}
+
+.sirket-ekle-form button {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 15px 30px; 
+    cursor: pointer;
+    border-radius: 8px; 
+    font-size: 1.1em; 
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.sirket-ekle-form button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);
+}
+.email-suggestions-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1000;
+    width: 100%; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .email-suggestions-list li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .email-suggestions-list li:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,0 +1,50 @@
+.cozuldu-talepler {
+    background-color: #f4f4f4;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.cozuldu-talepler h2 {
+    color: #000000; 
+    font-size: 2em; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+}
+
+.cozuldu-talepler table {
+    width: auto;
+    max-width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cozuldu-talepler th, .cozuldu-talepler td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cozuldu-talepler th {
+    background-color: #f1f1f1;
+    color: #000000; 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.cozuldu-talepler td {
+    background-color: hsl(120, 69%, 65%) !important; 
+    color: #000000;
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.cozuldu-talepler tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
