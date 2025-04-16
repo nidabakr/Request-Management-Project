@@ -53,7 +53,7 @@ Amaç; şirket içi taleplerin daha kolay, filtrelenebilir ve görsel olarak sad
 ![Talep Ekle2](screenshots/talep-ekle2.png)
 
 ### 🔹 Şirket Bilgi Ekranı
-![Şirket Bilgi](screenshots/şirket-bilgi.png)
+![Şirket Bilgi](screenshots/sirket-bilgi.png)
 
 ---
 Geliştirici
