@@ -1,64 +1,74 @@
-# 📋 Talep Projesi
+📋 Request Management Project
+This project was developed during my internship in the Technical Project Management department.
+The goal is to create a web application where internal company requests can be managed in a more accessible, filterable, and visually simple way.
 
-**Bu proje, staj sürecimde Teknik Proje Yönetimi departmanı için geliştirilmiştir.**  
-Amaç; şirket içi taleplerin daha kolay, filtrelenebilir ve görsel olarak sade bir şekilde yönetilebildiği bir web uygulaması oluşturmaktır.
+🛠️ Technologies Used
+Frontend: React.js
 
-## 🛠️ Kullanılan Teknolojiler
+Backend: Node.js
 
-- **Frontend:** React.js
-- **Backend:** Node.js
-- **Veritabanı:** MSSQL
-- **Tasarım:** Sade, modern ve duruma göre renklendirilmiş kullanıcı arayüzü
+Database: MSSQL
 
-## 📌 Proje Özellikleri
+Design: Simple, modern, and color-coded user interface
 
-### 1. React ve Node.js ile Tam Entegre Yapı
-- Frontend’de sayfa geçişleri, form işlemleri ve veri gösterimleri React ile geliştirildi.
-- Backend’de Node.js ile REST API'ler yazıldı. Bu API’ler üzerinden frontend ve veritabanı arasında iletişim kuruldu.
+📌 Project Features
+1. Fully Integrated React and Node.js Structure
+On the frontend, page transitions, form operations, and data displays were developed using React.
 
-### 2. MSSQL Tabanlı Veri Yönetimi
-- Personeller, Müşteriler, Talepler gibi temel tablolar oluşturuldu.
-- Taleplerin durumu, ilgili personel ve müşteri bilgileri ile birlikte veritabanında tutuldu.
+On the backend, REST APIs were written using Node.js. These APIs facilitate communication between the frontend and the database.
 
-### 3. API Üzerinden Veri Akışı
-- React uygulaması, IP adresi üzerinden Node.js API’lerine istek göndererek verileri aldı veya güncelledi.
-- Aynı ağda çalışan cihazlar bu uygulamaya erişebildi.
+2. MSSQL-Based Data Management
+Basic tables like Employees, Customers, and Requests were created.
 
-### 4. Kullanıcı Arayüzü ve Stil
-- Tablolarda satır kenarları olmayan temiz bir yapı tercih edildi.
-- Talep durumu:
-  - **Acil:** Kırmızı
-  - **Beklemede:** Sarı
-  - **Çözüldü:** Yeşil olarak renklendirildi.
-- Filtreleme özellikleri: Talep durumu, personel ve müşteri bazında filtreleme yapılabildi.
+Requests’ statuses, related employee and customer information are stored in the database.
 
-### 5. Yönetim Fonksiyonları
-- Yeni talep ekleme, silme ve düzenleme işlevleri
-- Yeni şirket ve yeni personel ekleme bileşenleri
-- Tüm taleplerin listelenmesi ve filtrelenmesi
+3. Data Flow via API
+The React application communicates with Node.js APIs via IP address to fetch or update data.
 
-### 6. Lokal Ağda Erişim
-- Uygulama aynı WiFi ağına bağlı cihazlarda IP üzerinden erişilebilir hale getirildi.
+Devices connected to the same network can access this application.
 
-## 🖼️ Ekran Görüntüleri
+4. User Interface and Design
+A clean layout with no row borders in tables was preferred.
 
-### 🔹 Ana Sayfa-Durumlara Göre Renkli Tablo
+Request statuses are color-coded as follows:
+
+Urgent: Red
+
+Pending: Yellow
+
+Resolved: Green
+
+Filtering features: Requests can be filtered by status, employee, and customer.
+
+5. Management Functions
+Functions for adding, deleting, and editing requests.
+
+Components for adding new companies and employees.
+
+Listing and filtering all requests.
+
+6. Local Network Access
+The application was made accessible via IP on devices connected to the same Wi-Fi network.
+
+Screenshots
+
+### 🔹 Main Page - Color-coded Table by Status
 ![Ana Sayfa](https://github.com/nidabakr/TalepProje/blob/main/ana%20sayfa.jpg)
 
-### 🔹 Talep Ekleme Ekranı
+### 🔹  Add Request Screen
 ![Talep Ekle](https://github.com/nidabakr/TalepProje/blob/main/talep%20ekle.jpg)
 
-### 🔹 Talep Ekleme Ekranı2
+### 🔹  Add Request Screen 2
 ![Talep Ekle2](https://github.com/nidabakr/TalepProje/blob/main/talep%20ekle2.jpg)
 
-### 🔹 Şirket Bilgi Ekranı
+### 🔹 Company Info Screen
 ![Şirket Bilgi](https://github.com/nidabakr/TalepProje/blob/main/sirket-bilgi.jpg)
 
 ---
 
-Geliştirici
-Ad Soyad: Nida Bakır
-Eğitim: Marmara Üniversitesi – Almanca Yönetim Bilişim Sistemleri
+Developer
+Name: Nida Bakır
+Education: Marmara University – Management Information Systems (German)
 
 
 # Getting Started with Create React App
