@@ -44,16 +44,16 @@ Amaç; şirket içi taleplerin daha kolay, filtrelenebilir ve görsel olarak sad
 ## 🖼️ Ekran Görüntüleri
 
 ### 🔹 Ana Sayfa-Durumlara Göre Renkli Tablo
-![Ana Sayfa](screenshots/ana-sayfa.png)
+![Ana Sayfa](https://github.com/nidabakr/TalepProje/blob/main/ana%20sayfa.jpg)
 
 ### 🔹 Talep Ekleme Ekranı
-![Talep Ekle](screenshots/talep-ekle.png)
+![Talep Ekle](https://github.com/nidabakr/TalepProje/blob/main/talep%20ekle.jpg)
 
 ### 🔹 Talep Ekleme Ekranı2
-![Talep Ekle2](screenshots/talep-ekle2.png)
+![Talep Ekle2](https://github.com/nidabakr/TalepProje/blob/main/talep%20ekle2.jpg)
 
 ### 🔹 Şirket Bilgi Ekranı
-![Şirket Bilgi](screenshots/sirket-bilgi.png)
+![Şirket Bilgi](https://github.com/nidabakr/TalepProje/blob/main/sirket-bilgi.jpg)
 
 ---
 Geliştirici
