@@ -1,3 +1,65 @@
+# 📋 Talep Projesi
+
+**Bu proje, staj sürecimde Teknik Proje Yönetimi departmanı için geliştirilmiştir.**  
+Amaç; şirket içi taleplerin daha kolay, filtrelenebilir ve görsel olarak sade bir şekilde yönetilebildiği bir web uygulaması oluşturmaktır.
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **Frontend:** React.js
+- **Backend:** Node.js
+- **Veritabanı:** MSSQL
+- **API İletişimi:** IP tabanlı veri alışverişi
+- **Tasarım:** Sade, modern ve duruma göre renklendirilmiş kullanıcı arayüzü
+
+## 📌 Proje Özellikleri
+
+### 1. React ve Node.js ile Tam Entegre Yapı
+- Frontend’de sayfa geçişleri, form işlemleri ve veri gösterimleri React ile geliştirildi.
+- Backend’de Node.js ile REST API'ler yazıldı. Bu API’ler üzerinden frontend ve veritabanı arasında iletişim kuruldu.
+
+### 2. MSSQL Tabanlı Veri Yönetimi
+- Personeller, Müşteriler, Talepler gibi temel tablolar oluşturuldu.
+- Taleplerin durumu, ilgili personel ve müşteri bilgileri ile birlikte veritabanında tutuldu.
+
+### 3. API Üzerinden Veri Akışı
+- React uygulaması, IP adresi üzerinden Node.js API’lerine istek göndererek verileri aldı veya güncelledi.
+- Aynı ağda çalışan cihazlar bu uygulamaya erişebildi.
+
+### 4. Kullanıcı Arayüzü ve Stil
+- Tablolarda satır kenarları olmayan temiz bir yapı tercih edildi.
+- Talep durumu:
+  - **Acil:** Kırmızı
+  - **Beklemede:** Sarı
+  - **Çözüldü:** Yeşil olarak renklendirildi.
+- Filtreleme özellikleri: Talep durumu, personel ve müşteri bazında filtreleme yapılabildi.
+
+### 5. Yönetim Fonksiyonları
+- Yeni talep ekleme, silme ve düzenleme işlevleri
+- Yeni şirket ve yeni personel ekleme bileşenleri
+- Tüm taleplerin listelenmesi ve filtrelenmesi
+
+### 6. Lokal Ağda Erişim
+- Uygulama aynı WiFi ağına bağlı cihazlarda IP üzerinden erişilebilir hale getirildi.
+
+## 🖼️ Ekran Görüntüleri
+
+### 🔹 Ana Sayfa-Durumlara Göre Renkli Tablo
+![Ana Sayfa](screenshots/ana-sayfa.png)
+
+### 🔹 Talep Ekleme Ekranı
+![Talep Ekle](screenshots/talep-ekle.png)
+
+### 🔹 Talep Ekleme Ekranı2
+![Talep Ekle2](screenshots/talep-ekle2.png)
+
+### 🔹 Şirket Bilgi Ekranı
+![Şirket Bilgi](screenshots/şirket-bilgi.png)
+
+---
+Geliştirici
+Ad Soyad: Nida Bakır
+Eğitim: Marmara Üniversitesi – Almanca Yönetim Bilişim Sistemleri
+
 <<<<<<< HEAD
 # Getting Started with Create React App
 
