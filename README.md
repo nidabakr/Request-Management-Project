@@ -8,7 +8,6 @@ Amaç; şirket içi taleplerin daha kolay, filtrelenebilir ve görsel olarak sad
 - **Frontend:** React.js
 - **Backend:** Node.js
 - **Veritabanı:** MSSQL
-- **API İletişimi:** IP tabanlı veri alışverişi
 - **Tasarım:** Sade, modern ve duruma göre renklendirilmiş kullanıcı arayüzü
 
 ## 📌 Proje Özellikleri
