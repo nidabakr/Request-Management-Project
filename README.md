@@ -1,8 +1,10 @@
 📋 Request Management Project
+
 This project was developed during my internship in the Technical Project Management department.
 The goal is to create a web application where internal company requests can be managed in a more accessible, filterable, and visually simple way.
 
 🛠️ Technologies Used
+
 Frontend: React.js
 
 Backend: Node.js
